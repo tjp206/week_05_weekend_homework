@@ -33,9 +33,9 @@ class CardGame:
 
 
 def cards_total(self, cards):
-  total                         # should be 'total = []'
+  total                         # should be 'total = 0'
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total # indentation error
   
 ```
