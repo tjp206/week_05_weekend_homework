@@ -24,10 +24,10 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2): # should be 'def' & not 'dif'
-  if card1.value > card2.value:
+  dif highest_card(self, card1 card2): # should be 'def' & not 'dif' & need a comma between 'card1 & card2'
+  if card1.value > card2.value:         # indentation error
     return card                         # should return 'card1' & not just 'card'
-  else:
+  else:                                 # indentation error
     return card2
   
 
@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total                         # should be 'total = 0'
   for card in cards:
     total += card.value
-    return "You have a total of" + total # indentation error
+    return "You have a total of" + total # indentation error - should be in line with 'for'
   
 ```
